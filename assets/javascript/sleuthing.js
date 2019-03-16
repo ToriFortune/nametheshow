@@ -23,20 +23,5 @@ if (memorylane)
     var answerword =[];
     for (var i = 0; i < gameguessword.length; i++){
         answerword [i] ="__"
-        var pendingalphabets = word.length; }
+        var pendingalphabets = gameguesword.length; }
         var playersguess = prompt ("Pick a letter from the options on the screen. If you would like to end game, select cancel");
-        
-        if (playersguess === null);
-        { break;}
-       
-     else (gameguessword.length !==1) {
-            alert ("Enter a letter.");
-                    }
-else{
-
-}
-   
-var wins = 0;
-var losses = 0;
-
-console.log ("Game dot script file");
